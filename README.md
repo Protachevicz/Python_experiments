@@ -1,11 +1,14 @@
 # Python Experiments
 
-A collection of applied AI/ML and statistics experiments, organized by subject into self-contained folders, each with its own README explaining the project, how it works, and how to run it.
+A collection of applied AI/ML, GenAI/Agents, and statistics experiments, organized by subject into self-contained folders, each with its own README explaining the project, how it works, and how to run it. Most projects are in Python; one (the MCP server) is in TypeScript, chosen because that's the ecosystem its tooling targets.
 
 ## Projects
 
 | Folder | Topic | Projects |
 |---|---|---|
+| [`ai-agent-tool-calling/`](ai-agent-tool-calling) | AI Agents | ReAct-style agent loop with tool calling (calculator, time, knowledge lookup) |
+| [`rag-pipeline-chroma/`](rag-pipeline-chroma) | Retrieval-Augmented Generation | Chunking, local embeddings, ChromaDB vector search, grounded LLM answers |
+| [`mcp-server-toolkit/`](mcp-server-toolkit) | Model Context Protocol (TypeScript) | A from-scratch MCP server exposing statistics, A/B testing, and glossary tools |
 | [`experiment-design-ab-testing/`](experiment-design-ab-testing) | A/B Testing & Experimentation | Significance over time (video), segmented conditions, 50/50 convergence |
 | [`teacher-student-distillation/`](teacher-student-distillation) | Teacher-Student Model Distillation | Professor/student distillation pipeline, BERT-tokenized variant, schema diagram |
 | [`deepseek-r1-lora-finetuning/`](deepseek-r1-lora-finetuning) | LLM Fine-Tuning | DeepSeek-R1 LoRA/QLoRA fine-tuning on a medical reasoning dataset |

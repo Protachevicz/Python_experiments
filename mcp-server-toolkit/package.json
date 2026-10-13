@@ -1,0 +1,21 @@
+{
+  "name": "mcp-server-toolkit",
+  "version": "1.0.0",
+  "description": "A minimal Model Context Protocol (MCP) server exposing research/data-science tools to any MCP-compatible AI client.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "tsx": "^4.16.2",
+    "@types/node": "^20.14.9"
+  }
+}
