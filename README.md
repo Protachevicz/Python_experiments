@@ -14,5 +14,16 @@ A collection of applied AI/ML, GenAI/Agents, and statistics experiments, organiz
 | [`deepseek-r1-lora-finetuning/`](deepseek-r1-lora-finetuning) | LLM Fine-Tuning | DeepSeek-R1 LoRA/QLoRA fine-tuning on a medical reasoning dataset |
 | [`central-limit-theorem-sampling/`](central-limit-theorem-sampling) | Statistical Inference | Central Limit Theorem demo on real EPA air quality data |
 | [`music-taste-recommender/`](music-taste-recommender) | Recommender Systems | Content-based music recommender simulation |
+| [`temporal-lobe-epilepsy-intermittency/`](temporal-lobe-epilepsy-intermittency) | Computational Neuroscience (C) | Code for *Epilepsy & Behavior* 2023: IAIN connectivity, intermittent synchronization, optogenetic control |
+| [`short-term-plasticity-analytical-solution/`](short-term-plasticity-analytical-solution) | Computational Neuroscience (C) | Code for *Chaos, Solitons & Fractals* 2024: closed-form analytical solution to short-term synaptic plasticity |
+| [`seasonal-infectious-disease-chaos/`](seasonal-infectious-disease-chaos) | Epidemiology (C) | Code for *Chaos, Solitons & Fractals* 2023: bistable chaotic/periodic dynamics in a seasonally forced SEIRS model |
 
 Each folder's README explains the purpose, methodology, and requirements for every script inside it.
+
+## Related research-code repositories
+
+A few other published-paper codebases were originally hosted at [henon.if.usp.br/OscilControlData](http://henon.if.usp.br/OscilControlData/) and now live in their own dedicated repositories:
+
+- [`Chimera-and-Plasticity`](https://github.com/Protachevicz/Chimera-and-Plasticity) — *AIP Advances* 2022, chimera states induced by STDP
+- [`Synaptic_potentiation_dependence`](https://github.com/Protachevicz/Synaptic_potentiation_dependence) — *EPJ Special Topics*, synaptic potentiation dependence on spike variability
+- [`STDP_Delay`](https://github.com/Protachevicz/STDP_Delay) — *Chaos, Solitons & Fractals* 2023, plastic networks with transmission delays
